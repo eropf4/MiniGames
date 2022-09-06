@@ -1,0 +1,235 @@
+﻿namespace JIZN
+{
+    sealed partial class Form1
+    {
+        /// <summary>
+        /// Обязательная переменная конструктора.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Освободить все используемые ресурсы.
+        /// </summary>
+        /// <param name="disposing">истинно, если управляемый ресурс должен быть удален; иначе ложно.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Код, автоматически созданный конструктором форм Windows
+
+        /// <summary>
+        /// Требуемый метод для поддержки конструктора — не изменяйте 
+        /// содержимое этого метода с помощью редактора кода.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.стартToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.contextMenuStrip2 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.стартToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.contextMenuStrip3 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.стартToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.contextMenuStrip4 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.contextMenuStrip5 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.стартToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.contextMenuStrip6 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.стартToolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.стартToolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
+            this.стартToolStripMenuItem6 = new System.Windows.Forms.ToolStripMenuItem();
+            this.StartButton = new System.Windows.Forms.Button();
+            this.Stop = new System.Windows.Forms.Button();
+            this.Clear = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.contextMenuStrip1.SuspendLayout();
+            this.contextMenuStrip2.SuspendLayout();
+            this.contextMenuStrip3.SuspendLayout();
+            this.contextMenuStrip5.SuspendLayout();
+            this.contextMenuStrip6.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.стартToolStripMenuItem});
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(106, 26);
+            // 
+            // стартToolStripMenuItem
+            // 
+            this.стартToolStripMenuItem.Name = "стартToolStripMenuItem";
+            this.стартToolStripMenuItem.Size = new System.Drawing.Size(105, 22);
+            this.стартToolStripMenuItem.Text = "Старт";
+            // 
+            // contextMenuStrip2
+            // 
+            this.contextMenuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.стартToolStripMenuItem1});
+            this.contextMenuStrip2.Name = "contextMenuStrip2";
+            this.contextMenuStrip2.Size = new System.Drawing.Size(106, 26);
+            // 
+            // стартToolStripMenuItem1
+            // 
+            this.стартToolStripMenuItem1.Name = "стартToolStripMenuItem1";
+            this.стартToolStripMenuItem1.Size = new System.Drawing.Size(105, 22);
+            this.стартToolStripMenuItem1.Text = "Старт";
+            // 
+            // contextMenuStrip3
+            // 
+            this.contextMenuStrip3.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.стартToolStripMenuItem2});
+            this.contextMenuStrip3.Name = "contextMenuStrip3";
+            this.contextMenuStrip3.Size = new System.Drawing.Size(106, 26);
+            this.contextMenuStrip3.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip3_Opening);
+            // 
+            // стартToolStripMenuItem2
+            // 
+            this.стартToolStripMenuItem2.Name = "стартToolStripMenuItem2";
+            this.стартToolStripMenuItem2.Size = new System.Drawing.Size(105, 22);
+            this.стартToolStripMenuItem2.Text = "Старт";
+            // 
+            // contextMenuStrip4
+            // 
+            this.contextMenuStrip4.Name = "contextMenuStrip4";
+            this.contextMenuStrip4.Size = new System.Drawing.Size(61, 4);
+            // 
+            // contextMenuStrip5
+            // 
+            this.contextMenuStrip5.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.стартToolStripMenuItem3});
+            this.contextMenuStrip5.Name = "contextMenuStrip5";
+            this.contextMenuStrip5.Size = new System.Drawing.Size(106, 26);
+            this.contextMenuStrip5.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip5_Opening);
+            // 
+            // стартToolStripMenuItem3
+            // 
+            this.стартToolStripMenuItem3.Name = "стартToolStripMenuItem3";
+            this.стартToolStripMenuItem3.Size = new System.Drawing.Size(105, 22);
+            this.стартToolStripMenuItem3.Text = "Старт";
+            // 
+            // contextMenuStrip6
+            // 
+            this.contextMenuStrip6.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.стартToolStripMenuItem4,
+            this.стартToolStripMenuItem6});
+            this.contextMenuStrip6.Name = "contextMenuStrip6";
+            this.contextMenuStrip6.Size = new System.Drawing.Size(106, 48);
+            // 
+            // стартToolStripMenuItem4
+            // 
+            this.стартToolStripMenuItem4.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.стартToolStripMenuItem5});
+            this.стартToolStripMenuItem4.Name = "стартToolStripMenuItem4";
+            this.стартToolStripMenuItem4.Size = new System.Drawing.Size(105, 22);
+            this.стартToolStripMenuItem4.Text = "Старт";
+            // 
+            // стартToolStripMenuItem5
+            // 
+            this.стартToolStripMenuItem5.Name = "стартToolStripMenuItem5";
+            this.стартToolStripMenuItem5.Size = new System.Drawing.Size(105, 22);
+            this.стартToolStripMenuItem5.Text = "Старт";
+            // 
+            // стартToolStripMenuItem6
+            // 
+            this.стартToolStripMenuItem6.Name = "стартToolStripMenuItem6";
+            this.стартToolStripMenuItem6.Size = new System.Drawing.Size(105, 22);
+            this.стартToolStripMenuItem6.Text = "Старт";
+            // 
+            // StartButton
+            // 
+            this.StartButton.Location = new System.Drawing.Point(1770, 12);
+            this.StartButton.Name = "StartButton";
+            this.StartButton.Size = new System.Drawing.Size(138, 54);
+            this.StartButton.TabIndex = 6;
+            this.StartButton.Text = "Start";
+            this.StartButton.UseVisualStyleBackColor = true;
+            this.StartButton.Click += new System.EventHandler(this.StartButton_Click);
+            // 
+            // Stop
+            // 
+            this.Stop.Location = new System.Drawing.Point(1770, 73);
+            this.Stop.Name = "Stop";
+            this.Stop.Size = new System.Drawing.Size(138, 55);
+            this.Stop.TabIndex = 7;
+            this.Stop.Text = "Stop";
+            this.Stop.UseVisualStyleBackColor = true;
+            this.Stop.Click += new System.EventHandler(this.Stop_Click);
+            // 
+            // Clear
+            // 
+            this.Clear.Location = new System.Drawing.Point(1770, 134);
+            this.Clear.Name = "Clear";
+            this.Clear.Size = new System.Drawing.Size(138, 52);
+            this.Clear.TabIndex = 8;
+            this.Clear.Text = "Clear";
+            this.Clear.UseVisualStyleBackColor = true;
+            this.Clear.Click += new System.EventHandler(this.Clear_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(1770, 192);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(138, 49);
+            this.button1.TabIndex = 9;
+            this.button1.Text = "Random";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1920, 1080);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Clear);
+            this.Controls.Add(this.Stop);
+            this.Controls.Add(this.StartButton);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Name = "Form1";
+            this.ShowIcon = false;
+            this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.Form1_Paint);
+            this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
+            this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseClick);
+            this.MouseCaptureChanged += new System.EventHandler(this.Form1_MouseCaptureChanged);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseMove);
+            this.contextMenuStrip1.ResumeLayout(false);
+            this.contextMenuStrip2.ResumeLayout(false);
+            this.contextMenuStrip3.ResumeLayout(false);
+            this.contextMenuStrip5.ResumeLayout(false);
+            this.contextMenuStrip6.ResumeLayout(false);
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem стартToolStripMenuItem;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip2;
+        private System.Windows.Forms.ToolStripMenuItem стартToolStripMenuItem1;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip3;
+        private System.Windows.Forms.ToolStripMenuItem стартToolStripMenuItem2;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip4;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip5;
+        private System.Windows.Forms.ToolStripMenuItem стартToolStripMenuItem3;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip6;
+        private System.Windows.Forms.ToolStripMenuItem стартToolStripMenuItem4;
+        private System.Windows.Forms.ToolStripMenuItem стартToolStripMenuItem5;
+        private System.Windows.Forms.ToolStripMenuItem стартToolStripMenuItem6;
+        private System.Windows.Forms.Button StartButton;
+        private System.Windows.Forms.Button Stop;
+        private System.Windows.Forms.Button Clear;
+        private System.Windows.Forms.Button button1;
+    }
+}
+

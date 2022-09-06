@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JIZN", "JIZN\JIZN.csproj", "{60C6AB13-1C49-4284-AA0E-6E1F02273382}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zmeiqa", "..\Zmeiqa\Zmeiqa.csproj", "{36A0B30D-035F-44D4-BD15-3ECD497B1ECC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60C6AB13-1C49-4284-AA0E-6E1F02273382}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60C6AB13-1C49-4284-AA0E-6E1F02273382}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60C6AB13-1C49-4284-AA0E-6E1F02273382}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60C6AB13-1C49-4284-AA0E-6E1F02273382}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36A0B30D-035F-44D4-BD15-3ECD497B1ECC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36A0B30D-035F-44D4-BD15-3ECD497B1ECC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36A0B30D-035F-44D4-BD15-3ECD497B1ECC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36A0B30D-035F-44D4-BD15-3ECD497B1ECC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8C310CD-F61A-4C22-84F8-79127D62B410}
+	EndGlobalSection
+EndGlobal
