@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JIZN", "JIZN\JIZN.csproj", "{60C6AB13-1C49-4284-AA0E-6E1F02273382}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zmeika", "..\Zmeiqa\Zmeika.csproj", "{36A0B30D-035F-44D4-BD15-3ECD497B1ECC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{60C6AB13-1C49-4284-AA0E-6E1F02273382} = {60C6AB13-1C49-4284-AA0E-6E1F02273382}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
